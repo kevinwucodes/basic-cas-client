@@ -1,0 +1,22 @@
+{
+  "name": "basic-cas-client",
+  "version": "0.1.0",
+  "description": "A basic CAS client to authenticate against a CAS v3 Server using promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kevin.wu@gmail.com",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "request-promise": "^3.0.0",
+    "urijs": "^1.18.1",
+    "xml2js": "^0.4.17"
+  }
+}
